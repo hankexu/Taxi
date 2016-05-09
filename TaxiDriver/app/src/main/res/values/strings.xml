@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TaxiDriver</string>
+    <string name="btn_confirm">确定</string>
+    <string name="tv_name">姓　名</string>
+    <string name="tv_phone">手机号</string>
+    <string name="tv_input_info">请填写您的个人信息</string>
+</resources>

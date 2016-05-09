@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/mina-integration-xbean-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javassist-3.11.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gson-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-statemachine-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-http-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tomcat-apr-5.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/json-20151123.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/xbean-spring-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ognl-3.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-integration-ognl-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/spring-2.5.6.SEC03.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-transport-apr-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-integration-beans-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-integration-jmx-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jcl-over-slf4j-1.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-core-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-filter-compression-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jzlib-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

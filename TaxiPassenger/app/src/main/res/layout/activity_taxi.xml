@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hakexu.activity.TaxiActivity">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_inception"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_destination"
+            android:layout_marginBottom="5sp"
+            android:background="#AA4DD0E1"
+            android:text="@string/start_location" />
+
+        <Button
+            android:id="@+id/btn_destination"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll"
+            android:layout_marginBottom="5sp"
+            android:background="#AA81C784"
+            android:text="@string/destination" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/ll"
+            android:layout_width="300sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30sp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_weight="4"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="#AA2233FF"
+                android:text="@string/start_call" />
+            <Button
+                android:layout_marginLeft="8dp"
+                android:id="@+id/btn_reset"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="#AA7766BB"
+                android:text="@string/reset" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
